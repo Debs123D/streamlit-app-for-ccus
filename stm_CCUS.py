@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 st.title("Interactive Carbon Emissions Model with CCUS")
 
 # Sliders for user input
+st.sidebar.title("Input Parameters")
 initial_emissions = st.sidebar.slider("Initial CO₂ Emissions (Mt)", min_value=500.0, max_value=2000.0, value=1000.0, step=50.0)
 reduction_rate = st.sidebar.slider("Annual Reduction Rate (%)", min_value=0.0, max_value=5.0, value=1.5, step=0.1)
 ccus_start = st.sidebar.slider("CCUS Start Year", min_value=2025, max_value=2045, value=2030, step=1)
