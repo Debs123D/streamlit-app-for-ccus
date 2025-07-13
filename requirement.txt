@@ -1,4 +1,0 @@
-Required libraries for this application:
-streamlit
-matplotlib
-pandas
